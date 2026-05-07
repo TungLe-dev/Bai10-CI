@@ -1,6 +1,6 @@
 package com.lab;
 
-public class ShippingCalculator {
+public class ShoppingCalculator {
     public double calculate(double weight, String type) {
         if (weight <= 0) {
             throw new IllegalArgumentException("Weight must be positive");
