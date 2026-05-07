@@ -40,4 +40,4 @@ jobs:
           cache: maven
 
       - name: Build and test
-        run: mvn test
+        run: mvn package
